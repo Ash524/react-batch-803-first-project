@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background: #f7f7f7;
+}
+
+header {
+    max-width: 1250px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: #C4C4C4;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+nav ul li:hover {
+    color: rgba(5, 139, 140, 1);
+    cursor: pointer;
+}
+
+.header_btn {
+    border-radius: 48px;
+    background: #058B8C;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.header_btn:hover {
+    color: #fff;
+}
+
+
+
+/* footer */
+footer {
+    max-width: 1250px;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.coloumn_three ul li {
+    list-style: none;
+    color: #8F8F8F;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 12px 0px;
+}
+
+.coloumn_two ul li {
+    color: #8F8F8F;
+    font-size: 20px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 40px;
+    word-wrap: break-word;
+    list-style: none;
+    column-span: 3;
+
+}
+
+.coloumn_two ul:first-of-type li:first-of-type {
+    color: black;
+}
+
+.block {
+    background-color: #058B8C;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.block h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: Rubik;
+    font-weight: 700;
+
+    word-wrap: break-word;
+}
+
+.block p {
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    font-family: Rubik;
+    font-weight: 400;
+    margin-top: 50px;
+    word-wrap: break-word;
+}
+
+.block img {
+    height: 40px;
+    margin-right: 20px;
+}
+
+hr {
+    margin: 20px;
+}
+
+.coloumn_two {
+    display: flex;
+    justify-content: space-around;
+}
+
+.news_letter {
+    display: flex;
+    padding: 15px 0px;
+}
+
+.news_letter input {
+    width: 75%;
+    border-radius: 341px;
+    border: 2px solid #058B8C;
+    height: 48px;
+    padding-left: 15px;
+}
+
+.news_letter button {
+    width: 23%;
+    margin-left: 1rem;
+    border-radius: 48px;
+    background: #058B8C;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 166.667% */
+    border: none;
+}
+
+.description p {
+    color: #8F8F8F;
+    font-size: 18px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word
+}
+
+.copyright p {
+    text-align: center;
+    color: #8F8F8F;
+    font-size: 20px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word
+}
+
+/* Banner Section */
+.page_width {
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+.banner_section {
+    padding: 50px 0px;
+    background: url('../assets/images/home/banner/bg_banner.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.banner_inner_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.banner_inner_section .banner_img {
+    padding: 20px;
+}
+
+.banner_inner_section .banner_img img {
+    border-radius: 50%;
+}
+
+.banner_inner_section .banner_content {
+    margin-top: 130px;
+}
+
+.banner_inner_section .banner_content small {
+    border-radius: 30px;
+    background: #058B8C;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0px;
+    padding: 5px 10px;
+}
+
+.banner_inner_section .banner_content .intro {
+    margin-top: 10px;
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.banner_inner_section .banner_content h2 {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -3.6px;
+}
+
+.banner_inner_section .banner_content h2 span {
+    color: #058B8C;
+}
+
+.banner_inner_section .banner_content .description {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.banner_button .btn_1 {
+    border-radius: 48px;
+    background: #8D0F11;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.banner_button .btn_2 {
+    border-radius: 48px;
+    background: transparent;
+    /* box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset; */
+    border: 2px solid #1E1E1E;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+/* after banner section*/
+
+.after-banner-section {
+    margin: 130px 0 100px 120px;
+}
+
+.after-banner-section .after-banner-logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+
+
+}
+
+.after-banner-section .after-banner-logos img {
+    border-radius: 300px;
+    width: 200px;
+    background: #F8F8F8;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.30);
+}
+
+.after-banner-section .after-banner-logos h4 {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+}
+
+/* service section*/
+.service-section .explore-service {
+    margin-left: 40px;
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.service-section .explore-service span {
+    color: #058B8C;
+}
+
+.service-section .services {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0px;
+    margin: 50px 0px 50px 100px;
+
+
+}
+
+.services .service img {
+    border-radius: 10px;
+    opacity: 0.7;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 16.85%, #FFF 73.55%);
+}
+
+.service-section .services .first,
+.second,
+.third,
+.fourth {
+
+    position: relative;
+
+}
+
+.service-section .services .service .ac-service,
+.dust-service,
+.handyman-service,
+.plumbing-service {
+    position: absolute;
+    bottom: 10px;
+    left: 130px;
+    color: #ffffff;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.service-section .services .service img {
+    width: 200px;
+    height: 240px;
+    margin-left: 80px;
+}
+
+.service-section {
+    background: url('../assets/images/home/service-display-bg.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+
+/* banner2*/
+.banner2-inner-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.banner2-inner-section .banner2-img {
+    padding: 20px;
+}
+
+.banner2-inner-section .banner2-img img {
+    border-radius: 50%;
+}
+
+.banner2-inner-section .banner2_content {
+    margin-top: 130px;
+}
+
+.banner2-inner-section .banner2_content h2 {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -3.6px;
+}
+
+.banner2-inner-section .banner2_content h2 span {
+    color: #058B8C;
+}
+
+.banner2-inner-section .banner2_content .description {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px;
+}
+
+/* banner3 */
+.banner3-section {
+    background-color: #058B8C;
+}
+
+.banner3-inner-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.banner3-inner-section .banner3-img {
+    padding: 20px;
+}
+
+.banner3-inner-section .banner3-img img {
+    border-radius: 50%;
+    margin-top: 150px;
+}
+
+.banner3-inner-section .banner3_content {
+    margin-top: 130px;
+}
+
+.banner3-inner-section .banner3_content h2 {
+    color: #FFF;
+
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px
+}
+
+.banner3-inner-section .banner3_content h2 span {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.banner3-inner-section .banner3_content .description {
+    color: #FFF;
+
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    margin: 20px;
+}
+
+.banner3-inner-section {
+    background: url('../assets/images/home/elipse.png');
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+}
+
+/*banner4*/
+.banner4-section .banner4-inner-section .detail h3 {
+    color: #1E1E1E;
+
+    text-align: center;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.banner4-section .banner4-inner-section .detail h3 span {
+    color: #058B8C;
+}
+
+.banner4-section .banner4-inner-section .detail p {
+    color: #1E1E1E;
+
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.banner4-section .banner4-inner-section .client-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.banner4-section .banner4-inner-section .client-section .client .clientpic {
+    width: 90px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+.banner4-section .banner4-inner-section .client-section .client {
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.10);
+    width: 410px;
+    height: 280px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.banner4-section .banner4-inner-section .client-section .client h4 {
+    font-size: 20px;
+    color: black;
+    text-align: right;
+    position: absolute;
+    top: 30px;
+    right: 100px;
+
+}
+
+.banner4-section .banner4-inner-section .client-section .client p {
+    color: #1E1E1E;
+
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    position: absolute;
+    top: 70px;
+    right: 180px;
+
+}
+
+.banner4-section .banner4-inner-section .client-section .client .star2 {
+    width: 100px;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+
+}
+
+.banner4-section .banner4-inner-section .client-section .client .desc {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    position: absolute;
+    top: 140px;
+    left: 40px;
+
+}
